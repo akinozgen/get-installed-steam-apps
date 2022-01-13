@@ -3,13 +3,13 @@
   "author": "Akın Özgen <akinozgen17@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/akinozgen/steam-get-installed-apps/issues"
+    "url": "https://github.com/akinozgen/get-installed-steam-apps/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akinozgen/steam-get-installed-apps.git"
+    "url": "git+https://github.com/akinozgen/get-installed-steam-apps.git"
   },
-  "homepage": "https://github.com/akinozgen/steam-get-installed-apps#readme",
+  "homepage": "https://github.com/akinozgen/get-installed-steam-apps#readme",
   "scripts": {
     "test": "nyc ./node_modules/.bin/mocha --timeout 100000 'tests/**/*.test.ts'",
     "test:watch": "nodemon ./index.ts ./tests/*.test.ts --exec \"npm run test\""
