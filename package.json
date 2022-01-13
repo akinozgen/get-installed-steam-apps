@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "nyc ./node_modules/.bin/mocha 'tests/**/*.test.ts'",
+    "test": "nyc ./node_modules/.bin/mocha --timeout 100000 'tests/**/*.test.ts'",
     "test:watch": "nodemon ./index.ts ./tests/*.test.ts --exec \"npm run test\""
   },
   "main": "build/index.js",
