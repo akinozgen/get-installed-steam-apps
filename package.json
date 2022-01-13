@@ -1,8 +1,10 @@
 {
+  "name": "get-installed-steam-apps",
   "scripts": {
     "test": "nyc ./node_modules/.bin/mocha --timeout 100000 'tests/**/*.test.ts'",
     "test:watch": "nodemon ./index.ts ./tests/*.test.ts --exec \"npm run test\""
   },
+  "version": "0.1.0",
   "main": "build/index.js",
   "dependencies": {
     "@node-steam/vdf": "^2.2.0",
