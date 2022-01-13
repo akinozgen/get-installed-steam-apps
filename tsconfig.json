@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noImplicitAny": true,
+        "module": "CommonJS",
+        "target": "ESNext",
+        "jsx": "preserve",
+        "lib": [
+            "ES6"
+        ],
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "strictFunctionTypes": true,
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "watch": true,
+        "outDir": "build"
+    },
+    "compileOnSave": true,
+    "files": [
+        "./index.ts"
+    ]
+}
